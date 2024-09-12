@@ -1,9 +1,18 @@
 .hero {
     background-color: #6e45e2;
     color: white;
-    padding: 50px;
     text-align: center;
-  }
+    height: 100vh; /* Занимает всю высоту экрана */
+    padding: 0; /* Убираем padding или задаём гибкий padding */
+    display: flex;
+    align-items: center; /* Центрируем контент по вертикали */
+    justify-content: center; /* Центрируем контент по горизонтали */
+}
+
+
+
+
+
   
   .hero h1 {
     font-size: 36px;
